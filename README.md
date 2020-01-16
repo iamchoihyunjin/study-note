@@ -1,2 +1,1 @@
-# study-note
-this isn't TIL
+# 이것은 매일 기록 되는 공부장이 아닙니다.
