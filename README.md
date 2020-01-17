@@ -1,1 +1,3 @@
-# 이것은 매일 기록 되는 공부장이 아닙니다.
+# Study Note
+> I can't study every day as an engineer who writes TIL.   
+> So I will name it study note.   
