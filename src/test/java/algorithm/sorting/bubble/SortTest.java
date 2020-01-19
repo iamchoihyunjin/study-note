@@ -1,36 +1,37 @@
 package algorithm.sorting.bubble;
 
 import algorithm.SortAlgorithm;
-import org.junit.Test;
+
+import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class SortTest {
+abstract class SortTest {
 
-    @Test
-    public static void sortWithInteger(SortAlgorithm sortAlgorithm) {
+    static void sortWithInteger(SortAlgorithm sortAlgorithm) {
 
         //given
-        Integer[] integers = {3, 5, 1, 2, 7};
+        Integer[] integers = {9, 8, 7, 6, 5};
 
         //when
         Integer[] sortedResult = sortAlgorithm.sort(integers);
 
         //then
-        assertThat(sortedResult).containsExactly(1, 2, 3, 5, 7);
+        System.out.println(Arrays.toString(sortedResult));
+        assertThat(sortedResult).containsExactly(5, 6, 7, 8, 9);
 
     }
 
-    @Test
-    public static void sortWithString(SortAlgorithm sortAlgorithm) {
+    static void sortWithString(SortAlgorithm sortAlgorithm) {
 
         //given
         String[] strings = {"g", "a", "c", "d", "f"};
 
         //when
-        String[] sortedResult = new BubbleSort().sort(strings);
+        String[] sortedResult = sortAlgorithm.sort(strings);
 
         //then
+        System.out.println(Arrays.toString(sortedResult));
         assertThat(sortedResult).containsExactly("a", "c", "d", "f", "g");
 
     }
