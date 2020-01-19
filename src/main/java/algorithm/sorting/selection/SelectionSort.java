@@ -4,23 +4,23 @@ import algorithm.SortAlgorithm;
 
 public class SelectionSort implements SortAlgorithm {
     @Override
-    public <T extends Comparable<T>> T[] sort(T[] unsorted) {
+    public <T extends Comparable<T>> T[] sort(T[] array) {
         int min;
 
-        for (int i = 0; i < unsorted.length - 1; i++) {
+        for (int i = 0; i < array.length - 1; i++) {
             min = i;
 
-            for (int j = i; j < unsorted.length; j++) {
-                if (unsorted[j].compareTo(unsorted[min]) < 0)
+            for (int j = i; j < array.length; j++) {
+                if (array[j].compareTo(array[min]) < 0)
                     min = j;
             }
 
             if (min != i) {
-                T temp = unsorted[i];
-                unsorted[i] = unsorted[min];
-                unsorted[min] = temp;
+                T temp = array[i];
+                array[i] = array[min];
+                array[min] = temp;
             }
         }
-        return unsorted;
+        return array;
     }
 }
