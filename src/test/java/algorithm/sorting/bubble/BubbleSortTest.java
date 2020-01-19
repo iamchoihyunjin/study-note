@@ -20,4 +20,18 @@ public class BubbleSortTest {
 
     }
 
+    @Test
+    public void sortWithAlphabetArray() {
+
+        //given
+        String[] strings = {"g", "a", "c", "d", "f"};
+
+        //when
+        String[] sortedResult = new BubbleSort().sort(strings);
+
+        //then
+        assertThat(sortedResult).containsExactly("a", "c", "d", "f", "g");
+
+    }
+
 }
