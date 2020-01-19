@@ -1,6 +1,6 @@
 package algorithm.sorting.bubble;
 
-import algorithm.SortAlgorithm;
+import algorithm.sorting.SortAlgorithm;
 
 import java.util.Arrays;
 

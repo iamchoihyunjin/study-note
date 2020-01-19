@@ -1,6 +1,6 @@
 package algorithm.sorting.selection;
 
-import algorithm.SortAlgorithm;
+import algorithm.sorting.SortAlgorithm;
 
 public class SelectionSort implements SortAlgorithm {
     @Override
