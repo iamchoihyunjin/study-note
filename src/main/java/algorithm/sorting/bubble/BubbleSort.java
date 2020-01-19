@@ -4,12 +4,6 @@ import algorithm.SortAlgorithm;
 
 public class BubbleSort implements SortAlgorithm {
 
-    /**
-     * return -1 when comparator less than.
-     * return 0 when comparator equal.
-     * return 1 when comparator higher than.
-     */
-
     @Override
     public <T extends Comparable<T>> T[] sort(T[] array) {
         for (int i = 0; i < array.length - 1; i++) {
