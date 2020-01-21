@@ -1,5 +1,6 @@
 package algorithm.sorting.bubble;
 
+import algorithm.sorting.BubbleSort;
 import org.junit.Test;
 
 public class BubbleSortTest {

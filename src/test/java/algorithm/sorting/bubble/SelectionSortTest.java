@@ -1,9 +1,9 @@
 package algorithm.sorting.bubble;
 
-import algorithm.sorting.selection.SelectionSort;
+import algorithm.sorting.SelectionSort;
 import org.junit.Test;
 
-public class SelectionSortTest {
+public abstract class SelectionSortTest {
 
     @Test
     public void sortWithInteger() {

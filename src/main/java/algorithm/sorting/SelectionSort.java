@@ -1,8 +1,10 @@
-package algorithm.sorting.selection;
+package algorithm.sorting;
 
-import algorithm.sorting.SortAlgorithm;
-
+/**
+ * @author Hyunjin Choi
+ */
 public class SelectionSort implements SortAlgorithm {
+
     @Override
     public <T extends Comparable<T>> T[] sort(T[] array) {
         int min;

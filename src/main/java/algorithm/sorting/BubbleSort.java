@@ -1,7 +1,8 @@
-package algorithm.sorting.bubble;
+package algorithm.sorting;
 
-import algorithm.sorting.SortAlgorithm;
-
+/**
+ * @author Hyunjin Choi
+ */
 public class BubbleSort implements SortAlgorithm {
 
     @Override
