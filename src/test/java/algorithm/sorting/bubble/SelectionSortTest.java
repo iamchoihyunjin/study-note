@@ -3,15 +3,20 @@ package algorithm.sorting.bubble;
 import algorithm.sorting.SelectionSort;
 import org.junit.Test;
 
-public abstract class SelectionSortTest {
+/**
+ * @author Hyunjin Choi
+ */
+public class SelectionSortTest extends SortTest implements Sortable {
 
     @Test
+    @Override
     public void sortWithInteger() {
-        SortTest.sortWithInteger(new SelectionSort());
+        super.sortWithInteger(new SelectionSort());
     }
 
     @Test
+    @Override
     public void sortWithString() {
-        SortTest.sortWithString(new SelectionSort());
+        super.sortWithString(new SelectionSort());
     }
 }

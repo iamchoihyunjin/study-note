@@ -3,16 +3,20 @@ package algorithm.sorting.bubble;
 import algorithm.sorting.BubbleSort;
 import org.junit.Test;
 
-public class BubbleSortTest {
+/**
+ * @author Hyunjin Choi
+ */
+public class BubbleSortTest extends SortTest implements Sortable {
 
     @Test
-    public void sortWithIntegerArray() {
-        SortTest.sortWithInteger(new BubbleSort());
+    @Override
+    public void sortWithInteger() {
+        super.sortWithInteger(new BubbleSort());
     }
 
     @Test
-    public void sortWithAlphabetArray() {
-        SortTest.sortWithString(new BubbleSort());
+    @Override
+    public void sortWithString() {
+        super.sortWithString(new BubbleSort());
     }
-
 }
