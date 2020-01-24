@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * @author Hyunjin Choi
  */
-public class SelectionSortTest extends SortTest implements Sortable {
+public class SelectionSortTest extends SortTest implements SortTestable {
 
     @Test
     @Override
