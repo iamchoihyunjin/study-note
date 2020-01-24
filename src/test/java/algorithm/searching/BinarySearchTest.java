@@ -8,6 +8,7 @@ public class BinarySearchTest {
 
     @Test
     public void find() {
-        assertThat(new BinarySearch().find(new Integer[]{1, 2, 3, 4}, 4)).isEqualTo(4);
+        assertThat(new BinarySearch().find(new Integer[]{1, 2, 3, 4, 5, 7, 8, 9, 10}, 9)).isEqualTo(9);
     }
+
 }

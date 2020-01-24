@@ -1,5 +1,8 @@
 package algorithm.searching;
 
+/**
+ * @author Hyunjin Choi
+ */
 public class BinarySearch implements SearchAlgorithm {
 
     @Override
