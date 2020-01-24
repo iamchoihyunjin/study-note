@@ -12,7 +12,7 @@ abstract class SortTest {
     void sortWithInteger(SortAlgorithm sortAlgorithm) {
 
         //given
-        Integer[] integers = {9, 8, 7, 6, 5};
+        Integer[] integers = {9, 6, 8, 7, 5};
 
         //when
         Integer[] sortedResult = sortAlgorithm.sort(integers);
