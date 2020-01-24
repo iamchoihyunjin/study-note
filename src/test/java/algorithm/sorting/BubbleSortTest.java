@@ -1,6 +1,5 @@
-package algorithm.sorting.bubble;
+package algorithm.sorting;
 
-import algorithm.sorting.BubbleSort;
 import org.junit.Test;
 
 /**

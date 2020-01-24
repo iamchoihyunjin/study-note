@@ -1,4 +1,4 @@
-package algorithm.sorting.bubble;
+package algorithm.sorting;
 
 /**
  * @author Hyunjin Choi
