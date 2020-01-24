@@ -13,7 +13,7 @@ public class BinarySearch implements SearchAlgorithm {
     private <T extends Comparable<T>> T search(T[] sortedArray, T key, int left, int right) {
         if (right < left) throw new NotFoundException(key);
 
-        int mediumValue = left + right % 2 == 0 ? left + right / 2 - 1 : left + right / 2;
+        int mediumValue = (left + right) >>> 1;
 
         int compareResult = key.compareTo(sortedArray[mediumValue]);
 
