@@ -5,5 +5,5 @@ package algorithm.sorting;
  */
 public interface SortAlgorithm {
 
-    <T extends Comparable<T>> T[] sort(T[] unsorted);
+    <T extends Comparable<T>> T[] sort(T[] unsortedArray);
 }
