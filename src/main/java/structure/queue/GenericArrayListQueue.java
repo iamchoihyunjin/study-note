@@ -1,4 +1,28 @@
 package structure.queue;
 
-public class GenericArrayListQueue {
+import java.util.ArrayList;
+
+public class GenericArrayListQueue<T> {
+
+    ArrayList<T> queue = new ArrayList<T>();
+
+    private boolean hasElements() {
+        return !queue.isEmpty();
+    }
+
+    public T peek() {
+        if (this.hasElements())
+            return queue.get(0);
+        return null;
+    }
+
+    public boolean add(T element) {
+        return queue.add(element);
+    }
+
+    public T poll() {
+        if (this.hasElements())
+            return queue.remove(0);
+        return null;
+    }
 }
