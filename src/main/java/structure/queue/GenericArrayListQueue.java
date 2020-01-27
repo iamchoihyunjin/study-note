@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class GenericArrayListQueue<T> {
 
-    ArrayList<T> queue = new ArrayList<T>();
+    ArrayList<T> queue = new ArrayList<>();
 
     private boolean hasElements() {
         return !queue.isEmpty();
