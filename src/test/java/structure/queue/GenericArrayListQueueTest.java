@@ -20,6 +20,6 @@ public class GenericArrayListQueueTest {
         assertThat(genericArrayListQueue.peek()).isNull();
 
         assertThat(genericArrayListQueue.poll()).isNull();
-
     }
+
 }
