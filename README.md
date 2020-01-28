@@ -3,5 +3,5 @@
 > So I will name it study note.   
 ---
 ## Contents
-1. [Algorithm](https://github.com/hyeonisism/study-note/blob/master/src/main/java/algorithm/README.md, "alogrithm README.md")
+1. [Algorithm](https://github.com/hyeonisism/study-note/blob/master/src/main/java/algorithm/README.md "alogrithm README.md")
 2. Data Structure
